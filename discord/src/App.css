@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vh;
+  background-color: #5865f2;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.Navbar {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DiscordLogo {
+  width: 120px;
+}
+
+.Menu {
+  width: 40px;
+}
+
+.Hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  max-width: 100vh;
+}
+
+.Hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Hero h2 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttonContainer button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonContainer button:first-child {
+  background-color: white;
+  color: #5865f2;
+}
+
+.buttonContainer button:last-child {
+  background-color: black;
+  color: white;
+}
+
+.Characters {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Characters img {
+  width: 400px; /* Placeholder size, adjust based on your characters */
+}
